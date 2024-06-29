@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+	<taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
+	<taglib-location>/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar
+	</taglib-location>
+	<tlibversion>1.0</tlibversion>
+	<jspversion>1.0</jspversion>
+	<shortname>tags</shortname>
+
+	<tag>
+		<name>menuIndex</name>
+		<tagclass>etiquetas.MenuIndex</tagclass>
+		<bodycontent>empty</bodycontent>
+		<info>Muestras las opciones del menú principal</info>
+		<attribute>
+			<name>rol</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>contador</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+</taglib>
